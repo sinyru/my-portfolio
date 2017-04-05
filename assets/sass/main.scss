@@ -209,6 +209,7 @@
 	}
 
 	header {
+
 		p {
 			color: _palette(fg-light);
 			position: relative;
@@ -1498,3 +1499,7 @@
 			}
 
 	}
+
+.avatar {
+  border: 2px solid black;
+}
