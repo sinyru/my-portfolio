@@ -2541,7 +2541,7 @@
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 1);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -3139,4 +3139,15 @@ strong {
   color: black;
   font-weight: bold;
   font-family:sans-serif;
+}
+
+.skills-column {
+    -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+}
+
+.technologies-used {
+  font-weight: bold;
+  color: black;
 }
